@@ -1,5 +1,5 @@
 N=int(input())
 a=0
-st="hello"
+st="Hello"
 for a in range(N):
   print(st)
