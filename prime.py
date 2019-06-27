@@ -1,9 +1,11 @@
-num=int(input())
-if num>1:
-  for i in range(2,num):
-    if (num%2)==0:
-      print("no")
-      break
-    else:
-       print("yes") 
-       break
+N=int(input())
+if N<=1000:
+
+  if N>1:
+    for i in range(2,N):
+      if (N%2)==0:
+        print("no")
+        break
+      else:
+        print("yes") 
+        break
